@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/currency-converter/static/css/main.56398e39.css",
+    "main.js": "/currency-converter/static/js/main.8b22c317.js",
+    "static/media/Geist-Medium.woff2": "/currency-converter/static/media/Geist-Medium.7d5b09fea8f217bbe3ba.woff2",
+    "static/media/Geist-Regular.woff2": "/currency-converter/static/media/Geist-Regular.3664c78826390146d0fe.woff2",
+    "index.html": "/currency-converter/index.html",
+    "main.56398e39.css.map": "/currency-converter/static/css/main.56398e39.css.map",
+    "main.8b22c317.js.map": "/currency-converter/static/js/main.8b22c317.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56398e39.css",
+    "static/js/main.8b22c317.js"
+  ]
+}
