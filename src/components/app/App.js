@@ -67,6 +67,7 @@ function App() {
         <CurrencyBlock
           title={"У меня есть"}
           value={fromPrice}
+          allCurrency={Object.keys(ratesRef.current)}
           currency={fromCurrency}
           onChangeCurrency={setFromCurrency}
           onChangeValue={onChangeFromPrice}
@@ -74,6 +75,7 @@ function App() {
         <CurrencyBlock
           title={"Я получу"}
           value={toPrice}
+          allCurrency={Object.keys(ratesRef.current)}
           currency={toCurrency}
           onChangeCurrency={setToCurrency}
           onChangeValue={onChangeToPrice}
