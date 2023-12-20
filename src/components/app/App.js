@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import CurrencyBlock from "../CurrencyBlock/CurrencyBlock";
 
-import "./App.scss";
+import "./app.scss";
 
 function App() {
   const [fromCurrency, setFromCurrency] = useState("RUB");
@@ -16,8 +16,7 @@ function App() {
     fetch("https://www.cbr-xml-daily.ru/latest.js")
       .then((res) => res.json())
       .then((json) => {
-        ratesRef.current = json.rates;
-        ratesRef.current.RUB = 1;
+        ratesRef.current = { ...json.rates, RUB: 1 };
         setDate(json.date);
         onChangeToPrice(1);
       })
